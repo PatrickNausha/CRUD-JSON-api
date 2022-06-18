@@ -34,3 +34,7 @@ app.post("/documents", (req, res) => {
 
 	res.status(201).json({ id });
 });
+
+app.use((req, res) => {
+	res.status(404).json({ error: "Not found" });
+});
