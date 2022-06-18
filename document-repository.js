@@ -12,7 +12,6 @@ function createDocument(object) {
 }
 
 function getDocument(id) {
-	console.log(documents);
 	return documents[id] || null;
 }
 
