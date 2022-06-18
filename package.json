@@ -1,0 +1,13 @@
+{
+  "name": "CRUD-JSON-api",
+  "version": "1.0.0",
+  "description": "An HTTP API for storing arbitrary JSON.",
+  "main": "index.js",
+  "repository": "https://github.com/PatrickNausha/CRUD-JSON-api.git",
+  "author": "PatrickNausha",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "express": "^4.18.1"
+  }
+}
